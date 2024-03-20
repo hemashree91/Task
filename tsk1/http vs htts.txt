@@ -1,0 +1,83 @@
+HTTP:
+
+* HTTP stands for HyperText Transfer Protocol.
+* It is a protocol used to access the data on the World Wide Web (www).
+* The HTTP protocol can be used to transfer the data in the form of plain text, hypertext, audio, video, and so on.
+* This protocol is known as HyperText Transfer Protocol because of its efficiency that allows us to use in a hypertext environment where there are rapid jumps from one document to another document.
+* HTTP is similar to the FTP as it also transfers the files from one host to another host. But, HTTP is simpler than FTP as HTTP uses only one connection, i.e., no control connection to transfer the files.
+* HTTP is used to carry the data in the form of MIME-like format.
+* HTTP is similar to SMTP as the data is transferred between client and server. The HTTP differs from the SMTP in the way the messages are sent from the client to the server and from server to the client. SMTP messages are stored and forwarded while HTTP messages are delivered immediately.
+
+Features of HTTP:
+
+* Connectionless protocol: HTTP is a connectionless protocol. HTTP client initiates a request and waits for a response from the server. When the server receives the request, the server processes the request and sends back the response to the HTTP client after which the client disconnects the connection. The connection between client and server exist only during the current request and response time only.
+* Media independent: HTTP protocol is a media independent as data can be sent as long as both the client and server know how to handle the data content. It is required for both the client and server to specify the content type in MIME-type header.
+* Stateless: HTTP is a stateless protocol as both the client and server know each other only during the current request. Due to this nature of the protocol, both the client and server do not retain the information between various requests of the web pages.
+
+HTTP Transactions:
+
+* The client initiates a transaction by sending a request message to the server. The server replies to the request message by sending a response message.
+
+Messages:
+
+* HTTP messages are of two types: request and response. Both the message types follow the same message format.
+
+* Computer Network HTTP:
+Request Message: The request message is sent by the client that consists of a request line, headers, and sometimes a body.
+
+* Computer Network HTTP :
+Response Message: The response message is sent by the server to the client that consists of a status line, headers, and sometimes a body.
+
+HTTPS:
+
+* Hypertext transfer protocol secure (HTTPS) is an encrypted version of HTTP.
+* Which is the protocol used to transfer data between web browsers (like Chrome) and servers (computers that host websites).
+
+* When you visit a website that uses HTTPS, 
+  the connection between your browser and the website's server is encrypted (meaning it’s scrambled)
+ *  The HTTPS protocol is fundamental for keeping your data private and secure when surfing the web.
+ 
+ How Does HTTPS Work?
+
+* HTTPS works on a request-response model (meaning the browser sends a request and the server responds to that request), just like in HTTP.
+    
+     1. Browser contacts website: The user's web browser attempts to connect to a website using HTTPS
+
+     2. SSL certificate sends: The website's server responds by sending its SSL/TLS certificate to the browser. This certificate contains the website’s public key (encryption key) and is used to establish a secure connection.  
+     
+     3. Browser verifies certificate: The browser checks the certificate to ensure it’s valid and is issued by a trusted certificate authority (like GoDaddy, DigiCert, Comodo, etc.). This step is crucial for confirming a website’s authenticity.
+     
+     4. Encryption key exchange: The browser and the server establish an encrypted connection by exchanging keys once the certificate is
+        verified.
+
+   HTTP VS HTTPS:
+
+       Now that you know how HTTPS works, let’s quickly go over how it’s different from HTTP.
+
+       HTTP works differently from HTTPS on several different levels.
+
+       Ports:
+      
+         * Ports are like virtual doors information travels through between a browser and a website server. And each port is assigned a number.
+
+          * Both HTTP and HTTPS use standard ports to facilitate communication.
+
+      URL Format:
+
+        * A uniform resource locator (URL) serves as the address for locating resources on the internet. And it’s formatted slightly differently for HTTP and HTTPS. 
+
+         * HTTPS URLs begin with “https://.” Which indicates a secure connection. 
+
+        * But HTTP URLs start with “http://.” And the missing “s” signifies the absence of security.
+        
+        Advantages of HTTPS:
+
+         *  We’ve covered some of the benefits of HTTPS already, but here’s a quick refresher in case you need reminding (plus, some additional benefits):
+
+
+        Enhanced Data Privacy:
+
+           HTTPS protects users’ privacy. So their sensitive information (such as credit card numbers or login details) remains confidential and inaccessible to hackers.
+
+        Compare that to HTTP. Where the data is sent in clear text and can be easily intercepted. Which leaves users’ privacy at risk.
+
