@@ -4,7 +4,7 @@
 
 #
     *what is window object.
-    *what is ducument object.
+    *what is document object.
     * properties
      * methods
      * object.
