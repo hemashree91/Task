@@ -48,8 +48,9 @@ for(var i=0;i<data.length;i++){
 var json=data.forEach((ele)=>console.log(ele.name))
 
 //FOR OF LOOP
-
- for (let city of data) {
-    var x=city;
+ var text= ""
+ var x=[]
+ for (let x of data) {
+  text += x + "<br>";
 }
- console.log(x);
+ console.log(text);
